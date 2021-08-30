@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=""https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Your Javascript Knowledge</title>
+</head>
+<header>
+
+    <div id="title">Test Your Javascript Knowledge</div>
+    <div id="clock" style=text-align:right> Countdown: </div>
+</header>
+
+<body>
+    <section>
+        <div class= "container"
+        <div id="quiz-container">
+            <div id="question-container" class="hide">
+
+                <div id="question">Questions</div>
+
+
+                <div id="answers">
+                    <button class="buttons" id="A" onclick="selectAnswer ('A')">A</button>
+                    <button class="buttons" id="B" onclick="selectAnswer ('B')">B</button>
+                    <button class="buttons" id="C" onclick="selectAnswer ('C')">C</button>
+                    <button class="buttons" id="D" onclick="selectAnswer ('D')">D</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="controls">
+        <button id="startButton">Start</button>
+    </div>
+
+    <section>
+
+        <div id="score"></div>
+        <div id="score-container" class="hide">
+
+            <label for="score-container">Please Enter Your:</label>
+            <span id="scoreInput"></span>
+            <label for="initials">Initials</label>
+            <input type="text" name="initials" id="initials" />
+            <label for="scoreBoard">Score</label>
+            <input type="text" name="scoreBoard" id="scoreBoard" />
+            <button id=submitBtn>Submit</button>
+        </div>
+        </div>
+        <div class="card" class="hide">
+            <h2>Saved Scores</h2>
+            <p>Initials <span id="saved-inital"></span></p>
+            <p>Score <span id="saved-score"></span></p>
+        </div>
+    </section>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
