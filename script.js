@@ -89,7 +89,7 @@ function setclock() {
     var clockInterval = setInterval(function () {
         document.getElementById('clock').innerHTML = secondsLeft;
         secondsLeft--;
-        clock.textContnet = secondsLeft;
+        clock.textContent = secondsLeft;
 
         if (secondsLeft === 0) {
             clearInterval(clockInterval);
